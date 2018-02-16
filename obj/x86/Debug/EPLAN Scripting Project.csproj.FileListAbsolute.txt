@@ -1,0 +1,1 @@
+C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\EPLAN Scripting Project.csprojResolveAssemblyReference.cache

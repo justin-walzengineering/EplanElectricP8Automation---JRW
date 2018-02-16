@@ -53,6 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="01_First_Steps\01_Start.cs" />
     <Compile Include="01_First_Steps\02_DeclareAction.cs" />
     <Compile Include="01_First_Steps\03_DeclareEventHandler.cs" />
@@ -152,9 +155,6 @@
     <EmbeddedResource Include="08_Formulas\04_Projectsearch.resx">
       <DependentUpon>04_Projectsearch.cs</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
