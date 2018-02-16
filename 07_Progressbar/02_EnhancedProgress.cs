@@ -2,6 +2,14 @@
 using Eplan.EplApi.Base;
 using Eplan.EplApi.Scripting;
 
+// Goal:
+// Display a progress bar and show time elapsing. 
+// Runs multiple functions
+
+// Run script in Eplan using [Utilities]>[Scripts]>[Run]
+// Then choose the file from the file location. 
+// The file will be a .cs extension.
+
 public class Class
 {
     [Start]

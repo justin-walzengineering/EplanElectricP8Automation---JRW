@@ -2,6 +2,14 @@
 using Eplan.EplApi.Scripting;
 using System.Threading;
 
+// Goal:
+// Display a progress bar and show time elapsing. 
+// Sleep time between each cycle is 1 second
+
+// Run script in Eplan using [Utilities]>[Scripts]>[Run]
+// Then choose the file from the file location. 
+// The file will be a .cs extension.
+
 public class Class
 {
     [Start]
@@ -11,13 +19,13 @@ public class Class
         oProgress.SetAllowCancel(true);
         oProgress.SetAskOnCancel(true);
         oProgress.SetNeededSteps(3);
-        oProgress.SetTitle("Meine Progressbar");
+        oProgress.SetTitle("My progress bar");
         oProgress.ShowImmediately();
 
         if (!oProgress.Canceled())
         {
             oProgress.SetActionText("Step 1");
-            oProgress.SetTitle("Titelzeile 1");
+            oProgress.SetTitle("Headline 1");
             oProgress.Step(1);
 
             Thread.Sleep(1000);
@@ -26,7 +34,7 @@ public class Class
         if (!oProgress.Canceled())
         {
             oProgress.SetActionText("Step 2");
-            oProgress.SetTitle("Titelzeile 2");
+            oProgress.SetTitle("Headline 2");
             oProgress.Step(1);
 
             Thread.Sleep(1000);
@@ -35,7 +43,7 @@ public class Class
         if (!oProgress.Canceled())
         {
             oProgress.SetActionText("Step 3");
-            oProgress.SetTitle("Titelzeile 3");
+            oProgress.SetTitle("Headline 3");
             oProgress.Step(1);
 
             Thread.Sleep(1000);

@@ -1,4 +1,5 @@
-EplanElectricP8Automatisieren
+
+EplanElectricP8Automation
 =============================
 
-Projekt zum Buch - GRUNDLAGEN UND BEISPIELE ZUM ERSTELLEN VON SCRIPTEN IN VISUAL C#
+Project to the book - BASICS AND EXAMPLES FOR CREATING SCRIPTS IN VISUAL C #
