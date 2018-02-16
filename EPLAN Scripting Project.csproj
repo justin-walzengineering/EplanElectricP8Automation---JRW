@@ -52,9 +52,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="01_First_Steps\01_Start.cs" />
     <Compile Include="01_First_Steps\02_DeclareAction.cs" />
@@ -144,6 +142,11 @@
     <Compile Include="14_Examples\15_Sounds.cs" />
     <Compile Include="14_Examples\16_Better_Than_Progressbar.cs" />
     <Compile Include="14_Examples\17_E-mail.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="08_Formulas\01_Template.resx">
@@ -155,6 +158,12 @@
     <EmbeddedResource Include="08_Formulas\04_Projectsearch.resx">
       <DependentUpon>04_Projectsearch.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

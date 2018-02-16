@@ -1,1 +1,5 @@
 C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\EPLAN Scripting Project.csprojResolveAssemblyReference.cache
+C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\frmTemplate.resources
+C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\frmButton.resources
+C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\FrmProjectsearch.resources
+C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\EPLAN Scripting Project.csproj.GenerateResource.Cache
