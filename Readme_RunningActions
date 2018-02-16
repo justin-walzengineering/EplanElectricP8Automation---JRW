@@ -1,0 +1,12 @@
+Method for running an action:
+In Eplan, right click on the Toolbar. This will bring up a menu that will allow user to turn toolbars on/off. 
+Click on [Customize...]. A pop up window will occur, named {Customize}.
+Click on tab [Commands]
+In Categories window click on [Actions]
+Drag and drop one of the actions into the toolbar (it doesn't matter which one, as it is only to get to the next pop up screen)
+A pop up screen will appear labeled {Set Button}
+On {Command Line:}, this is where you will put the action name of the action from the script. The action name usually looks liked this: 
+[DeclareAction("Actionname")]
+In this case, "Actionname" will be what is placed in the {Command Line:} box. 
+Click [OK]
+Once the tool is on the toolbar, click the button to perform the action.
