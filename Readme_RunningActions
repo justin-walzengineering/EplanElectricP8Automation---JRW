@@ -12,6 +12,9 @@ The action name is found in the script and usually looks liked this:
 In this case, "Actionname" will be what is placed in the {Command Line:} box. 
 Click [OK]
 
+If the Actionname calls for a parameter to be entered, you can enter it here as well. 
+Example 1; in folder 03_Object, file "09_Parameter_Integer", this asks for user to input a value for each integer. In the ExecuteEplanAction, the user will input [IntParameter /INT1:2 /INT2:10]
+Example 2; in folder 03_Object, file "09_Parameter_String", this asks for user to input a value for each integer. In the ExecuteEplanAction, the user will input [StringParameter /ParaString:"This is my text"]
 
 
 Method 2 (Long version):
