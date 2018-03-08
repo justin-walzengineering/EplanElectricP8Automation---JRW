@@ -3,8 +3,7 @@ using Eplan.EplApi.Scripting;
 
 // Goal:
 // Create a new menu item and allow user to run an action from menu item
-// This item is located in [Insert] before Window Macro.
-// Name is "Extend existing menu ..."
+// I cannot find the location of this menu creation
 
 // Load script in Eplan using [Utilities]>[Scripts]>[Load]
 // Then choose the file from the file location. 
@@ -27,7 +26,7 @@ public class Class
         Eplan.EplApi.Gui.Menu oMenu = new Eplan.EplApi.Gui.Menu();
 
         oMenu.AddPopupMenuItem(
-            "Extend existing menu ...", // Name: Menu
+			"Extend existing menu ...", // Name: Menu
             "with pop-up menu", // Name: Menu item
             "MenuAction", // Name: Action
             "Status text", // status text
@@ -40,3 +39,7 @@ public class Class
         return;
     }
 }
+
+
+
+
