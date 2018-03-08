@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="01_First_Steps - ToDo\01_ExecuteEplanAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="01_First_Steps\01_Start.cs" />
     <Compile Include="01_First_Steps\02_DeclareAction.cs" />
     <Compile Include="01_First_Steps\03_DeclareEventHandler.cs" />
