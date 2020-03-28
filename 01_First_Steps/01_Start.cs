@@ -15,6 +15,7 @@ public class Class
     {
         MessageBox.Show("I can do scripts!"); // Comment
         return;
+
     }
 }
 

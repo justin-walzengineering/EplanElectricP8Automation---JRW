@@ -3,3 +3,9 @@ C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\f
 C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\frmButton.resources
 C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\FrmProjectsearch.resources
 C:\Users\jwaltz\Documents\GitHub\EplanElectricP8Automation - JRW\obj\x86\Debug\EPLAN Scripting Project.csproj.GenerateResource.Cache
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\EPLAN Scripting Project.csprojAssemblyReference.cache
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\frmTemplate.resources
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\frmButton.resources
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\FrmProjectsearch.resources
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\EPLAN Scripting Project.csproj.GenerateResource.cache
+C:\Users\jwalz\Source\Repos\justin-walzengineering\EplanElectricP8Automation---JRW\obj\x86\Debug\EPLAN Scripting Project.csproj.CoreCompileInputs.cache
